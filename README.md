@@ -1,3 +1,9 @@
+- Run:
+
+`npm install`
+
+`npm run build:css`
+
 - [X] Download SVGs to assets to clean up code
 
 - [X] Change page title to my name
