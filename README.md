@@ -1,21 +1,48 @@
-- Run:
+<h1 align=center>Astro Simple Portfolio</h1>
 
-`npm install`
+<p align=center>A simple and high performing portfolio template built with Astro.</p>
+<h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-vercel-app/sl03lqgum9?form_factor=desktop"> Page Speed (100) 🚀 </a>
+</h2>
+<p align=center>
+  <a href="https://github.com/withastro/astro/releases/tag/astro%404.11" alt="Astro">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.11&color=000&logo=astro" />
+  </a>
+</p>
 
-`npm run build:css`
+![Screenshot](https://github.com/saminnet/astro-simple-portfolio/assets/5575369/ee64b583-1d9c-47f5-9832-863eaf8968a3)
 
-- Todo:
+### 📌 Key Features
 
-- [X] Download SVGs to assets to clean up code
+- 🎨 Highly customizable (Colors, Fonts, etc.)
+- 🌅 Supports both static and animated backgrounds
+- 🅰️ Incorporates `astro-fonts` for automatic Google fonts optimization
+- ⚡ Designed for speed (100 Google PageSpeed Score)
+- 🎨 Built with the Tailwind CSS framework
+- 📱 Fully responsive across all devices - desktops, tablets, and smartphones
+- 💬 Code formatted using [Biomejs](https://biomejs.dev/)
+- 🔍 SEO optimized
 
-- [X] Change page title to my name
+### 🧞 Commands
 
-- [X] add programming languages and tools
+This project utilizes [pnpm](https://pnpm.io) as its package manager. However, you have the flexibility to choose your preferred package manager.
 
-- [ ] Check what is causing slow page load
+All commands are run from the root of the project, from a terminal:
 
-- [X] Change colors
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-- [ ] Multilingual
+### ✍️ Contributing
 
-- [ ] Make links more clear (add text to them)
+Contributions are welcome. Please open an issue or submit a pull request.
+
+### 📄 License
+
+![GitHub License](https://img.shields.io/github/license/saminnet/astro-simple-portfolio)
+
+This project is licensed under the MIT License
